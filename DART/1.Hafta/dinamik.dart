@@ -1,7 +1,7 @@
 void main() {
   //Dinamik tanımlama
   var userName = 'Veli';
-//Bu değişken tipinde bir tanımlama yapmaya gerek yoktur. Gelen bilgi muallak ise kullanılabilir.
+//Bu değişken tipinde bir değişken tipi tanımlaması yapmaya gerek yoktur. Gelen bilgi muallak ise kullanılabilir.
   dynamic Username2 = 'Ahmet';
 //Bu da aynı şekilde dinamik olduğu anlamına gelir. Var da içerisindeki değişkenin tipini değiştiremezsek
 //Dynamic de veri tipi değişebilir yani şu an string tanımlama yapılmış olmasına rağmen ileride aynı değişkene int bir veri tipi atayabiliriz.
