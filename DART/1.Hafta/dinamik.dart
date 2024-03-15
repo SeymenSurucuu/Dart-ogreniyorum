@@ -3,14 +3,14 @@ void main() {
   var userName = 'Veli';
 //Bu değişken tipinde bir değişken tipi tanımlaması yapmaya gerek yoktur. Gelen bilgi muallak ise kullanılabilir.
   dynamic Username2 = 'Ahmet';
-//Bu da aynı şekilde dinamik olduğu anlamına gelir. Var da içerisindeki değişkenin tipini değiştiremezsek
-//Dynamic de veri tipi değişebilir yani şu an string tanımlama yapılmış olmasına rağmen ileride aynı değişkene int bir veri tipi atayabiliriz.
+//Bu da aynı şekilde dinamik olduğu anlamına gelir. Var da içerisindeki değişkenin tipini alır ve sonrasında farklı veri tipli değer atanmaz.
+//Dynamic de veri tipi değişebilir yani şu an string tanımlama yapılmış olmasına rağmen ileride aynı değişkene int bir veri tipine sahip değer atanabilir.  atayabiliriz.
 
   final bankMoney = 1840;
 //Bu değişken değişmez. O an çalışan değeri alır. Yani ekran geldikten sonraki değeri alabilir.
 
   const String bankName = "TM Bank";
-//Ayı şekilde final gibi sonradan değiştirilemez. Proje başlarken kod derlendi ve belirtilen değer hariç değer alamaz.
+//Aynı şekilde final gibi sonradan değiştirilemez. Proje başlarken kod derlendi ve belirtilen değer hariç değer alamaz.
 
 //banka adı  + bankuser1 + 1 e kimse dokunamaz + bankuser paraı + yeni müşteri gelecek bank2musteri yeni gelenden bankuser1 in parasını çıkartıp göstrerecek
 
